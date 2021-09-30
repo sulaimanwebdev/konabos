@@ -29,14 +29,10 @@
     padding-bottom: 40px;
 }
 
-.asecImages{
-    position: relative;
-width: 600px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
 
+.asecImages img{
+    width:550px;
+}
 
 .mainImage{
     z-index: 1;
@@ -86,7 +82,7 @@ right: 0px;
 }
 .aSecTxt h1{
 font-weight: 800;
-font-size: 60px;
+font-size: 50px;
 line-height: 1.2;
 margin-bottom: 20px;
 }
@@ -103,6 +99,7 @@ margin-bottom: 20px;
 
 }
 
+
 .asecLinks{
     margin-top: 30px;
     display: flex;
@@ -114,7 +111,6 @@ margin-bottom: 20px;
     padding: 14px 25px;
     background-color: #F7A919;
     color: white;
-    border-radius: 2px;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -149,7 +145,14 @@ margin-bottom: 20px;
 
 /* logo caresoul */
 
-
+.caresoulC{
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
+max-width: 1270px;
+  
+ padding-left: 0;
+ padding-right: 0;
+}
 
 .caresoulLogo{
     display: flex;
@@ -158,19 +161,27 @@ margin-bottom: 20px;
 
 }
 
-.caresoulLogo img{
-    width: 230px;
+.caresoulC img{
+    max-width: 200px;
+    
     filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
     transition: 0.3s;
-    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 
 
 
 
-.caresoulLogo img:hover{
+.caresoulC img:hover{
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -505,6 +516,7 @@ gap: 30px;
 .jjjj{
 width: 100%;
 object-fit: fill;
+max-height: 50px;
 }
 
 
@@ -636,9 +648,9 @@ border-bottom-left-radius: 5px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color: white;
-    box-shadow: 4px 4px 22px -2px rgba(0,0,0,0.12);
--webkit-box-shadow: 4px 4px 22px -2px rgba(0,0,0,0.12);
--moz-box-shadow: 4px 4px 22px -2px rgba(0,0,0,0.12);
+    box-shadow: 9px 0px 9px 0px rgba(0,0,0,0.08);
+-webkit-box-shadow: 9px 0px 9px 0px rgba(0,0,0,0.08);
+-moz-box-shadow: 9px 0px 9px 0px rgba(0,0,0,0.08);
 }
 
 
@@ -832,20 +844,6 @@ font-size: 17px;
 
     
 
-.asecImages img:nth-child(3){
-   display: none;
-}
-
-
-.asecImages img:nth-child(4){
-    display: none;
- }
-
-
-
-.asecImages img:nth-child(5){
-    display: none;
- }
 
  
 .mainImage{
@@ -1210,3 +1208,147 @@ justify-content: center;
     
     
 }
+
+
+
+
+
+
+
+@media (max-width:1117px){
+
+.asecImages img{
+    width:400px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:485px){
+
+    .asecImages img{
+        min-width: 100%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+       
+.alice-carousel__dots{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+    position: relative;
+    text-transform: capitalize;
+    content:url('https://cdn.dsmcdn.com/web/production/slick-arrow.svg'); 
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alice-carousel__prev-btn [data-area]::after{
+  
+    display: inline-block;
+
+    transform: rotate(180deg);
+  
+}
+
+
+.alice-carousel__prev-btn {
+    display: flex;
+    align-items: center;
+height: 100%;
+
+width: fit-content;
+position: absolute;
+left: 0;
+top: 0;
+background-color: white;
+}
+
+
+
+.alice-carousel__next-btn {
+background-color: white;
+
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+height: 100%;
+
+width: fit-content;
+height: 100%;
+right: 0;
+
+}
+
+
+
+
+.alice-carousel__next-btn [data-area]::after {
+    position: relative;
+    text-transform: capitalize;
+    content:url('https://cdn.dsmcdn.com/web/production/slick-arrow.svg'); 
+  
+}
+
+
+
+
+
+
+

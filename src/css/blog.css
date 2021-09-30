@@ -1,4 +1,30 @@
+.articleP{
+    position: relative;
+}
 
+.Parti1{
+    position: absolute;
+    top: 2450px;
+    
+    right:60px;
+}
+
+
+
+
+.Parti2{
+    position: absolute;
+    top: 2850px;
+    
+    left:60px;
+}
+
+
+.Parti3{
+    position: absolute;
+    top: 2050px;
+    left:20px;
+}
 
 .blogP{
     
@@ -504,4 +530,31 @@ font-weight: 600;
   
 }
 
+}
+
+
+
+
+@media (max-width:1129px){
+    
+.Parti1{
+    
+display: none;
+
+}
+
+
+
+
+.Parti2{
+    
+display: none;
+
+}
+
+
+.Parti3{
+    
+display: none;
+}
 }

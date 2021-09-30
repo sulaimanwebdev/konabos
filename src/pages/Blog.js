@@ -18,6 +18,11 @@ const Blog = () => {
 
 
           <div className="parent articleP">
+              <img src="/images/triangle.png" alt="" className="Parti1"/>
+              <img src="/images/circle.png" alt="" className="Parti2"/>
+              <img src="/images/plusCircle.png" alt="" className="Parti3"/>
+
+
               <div className="child articleC">
              
                  <div className="textLogo">KONABOS</div>

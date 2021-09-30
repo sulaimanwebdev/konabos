@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../css/home.css';
-import { Carousel } from '@trendyol-js/react-carousel';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
+
 const Home = () => {
 
 
@@ -9,6 +12,31 @@ const Home = () => {
     const setToggle = (index) =>{
         setTab(index)
     }
+
+    const responsive = {
+        0: { items: 1 },
+        600: { items: 2 },
+        837: { items: 3 },
+        1024: { items: 4 },
+    };
+
+    const items = [
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+    ];
+
+
+
     
     return (
         <>
@@ -27,11 +55,8 @@ const Home = () => {
              </div>
 
 <div className="asecImages">
- <img src="/images/header.png" alt="" className="mainImage"/>
- <img src="/images/whiteHorse.png" alt="" className="whiteHorse"/>
- <img src="/images/algolia.png" alt="" />
- <img src="/images/circle.png" alt="" />
- <img src="/images/triangle.png" alt="" />
+ <img src="/images/header.svg" alt="" className="mainImage"/>
+
 
 
 </div>
@@ -50,36 +75,17 @@ const Home = () => {
 
     <div className="child caresoulC">
 
-
-    <Carousel show={4} slide={3} swiping={true} className="logocaresou">
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-   <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>
-  
-
-  
+    <AliceCarousel
+        mouseTracking
+        items={items}
+        responsive={responsive}
+        controlsStrategy="alternate"
+        infinite={true}
+    />
 
 
-   
-    
-</Carousel>
+
+
     </div>
 </div>
 
