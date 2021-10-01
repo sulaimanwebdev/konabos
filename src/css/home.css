@@ -1142,6 +1142,11 @@ grid-template-columns: 1fr 1fr ;
     border-radius: 5px;
 }
 
+.active-tab{
+    border-radius: 5px;
+
+}
+
 
 }
 
