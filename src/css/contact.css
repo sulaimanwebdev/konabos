@@ -642,6 +642,15 @@ border: 1px solid black;
 
 
 
+
+
+.iconSec1 hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
         .iconSec1:nth-child(1) hr{
             min-width: 120px !important;
             text-align: left;
@@ -649,4 +658,42 @@ border: 1px solid black;
             background-color: #EF7823;
             height: 2px;
             padding: 0;
+        }
+
+
+
+
+        .iconSec1:nth-child(2) hr{
+            min-width: 120px !important;
+            text-align: left;
+            border: none;
+            background-color: #248594;
+            height: 2px;
+            padding: 0;
+        }
+
+
+
+
+        .iconSec1:nth-child(3) hr{
+            min-width: 120px !important;
+            text-align: left;
+            border: none;
+            background-color: #EF7823;
+            height: 2px;
+            padding: 0;
+        }
+
+
+
+
+
+
+
+        @media (max-width:482px){
+
+
+.ContactFormP{
+    margin-bottom: 0px;
+}
         }

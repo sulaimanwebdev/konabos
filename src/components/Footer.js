@@ -13,13 +13,6 @@ const Footer = () => {
                      </form>
 
 
-<div className="llllnewsletter">
-                     <form>
-                 <i class="fal fa-envelope"></i>
-                     <input type="text" name="search" placeholder="Enter Email address"/>
-                     </form>
-                     <button type="submit">Submit</button>
-               </div>
 
                      </div>
 
