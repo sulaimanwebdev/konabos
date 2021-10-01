@@ -24,6 +24,19 @@ const Blog = () => {
 
 
               <div className="child articleC">
+
+       <div className="leftSocialIcons">
+       <div className="soFlex">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fas fa-bookmark"></i></a>
+    </div>
+       </div>
+
+
+
+
+
              
                  <div className="textLogo">KONABOS</div>
 
@@ -183,13 +196,29 @@ Developing a compelling customer experience strategy is vital in acquiring and r
                <div className="colImg"><img src="/images/blogImages/kitty.png" alt="" /></div>
 
                <div className="colTxt">
-                   <h2>Themely</h2>
+                  
+<div>
+<h2>Themely</h2>
                    <div className="name"><h1>Konabos</h1> <i class="fas fa-check-circle"></i></div>
                    <p>Yay to Konabosing in style! Content tagged with the Konabos handle is produced by two or more Konabos team members.</p>
                    <div className="soFlex">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    </div>
+                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                   </div>
+</div>
+
+
+<div className="followBtn">
+    <a href="#"><i class="fas fa-plus"></i> Follow</a>
+</div>
+
+
+
+
+
+                  
+
+                   
                </div>
 
 

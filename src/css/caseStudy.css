@@ -90,6 +90,16 @@ margin: 0 auto;
 }
 
 
+@media (max-width:1264px){
+
+
+.flex1 h1{
+    font-size: 45px;
+    
+}
+
+}
+
 
 .flex1:first-child{
     margin-top: 60px;
@@ -628,10 +638,36 @@ color: white;
     
     
     @media (max-width:966px){
-        .caseStudyCont .circularImage{
-            display: none;
+        .circularPartP{
+            position: relative;
         }
-    
+        .caseStudyCont .circularImage{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            border: none;
+
+        }
+        .caseStudyCont .circularImage img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 800px;
+            object-position: center;
+            object-fit: contain;
+            opacity: 0.1;
+        }
+    .circularText{
+        z-index: 10;
+    }
+
+    .circularPartC .circTitle{
+        z-index: 10;
+    }
 .caseStudyCont .iii{
     text-align: center;
 }
@@ -936,7 +972,7 @@ border-bottom: 2px solid #31b6ca;
         flex-direction: column;
         justify-content: flex-start;
         gap: 40px;
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 70px;
     }
 
@@ -948,6 +984,12 @@ border-bottom: 2px solid #31b6ca;
         justify-content: center;
     }
     
+}
+
+@media (max-width:464px){
+.homeC{
+    margin-top: 20px;
+}
 }
 
 
@@ -1034,8 +1076,9 @@ margin-bottom:20px;
 
 
 @media (max-width:1097px){
-    .profileImgCont{
-        display: none;
+    .profileImgCont img{
+       min-width:300px !important;
+       width: 100%;
     }
 
 
@@ -1051,19 +1094,46 @@ margin-bottom:20px;
     padding-bottom: 100px;
     height: auto;
 padding-left: 20px;
-padding-top: 40px;
+padding-top: 270px;
 padding-right: 20px;
 
 }
+.profileC{
+    position: relative;
 }
+
+
+.profileImgCont {
+   position: absolute;
+top: 30px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.profileImgCont img{
+    max-width: 200px !important;
+    width: 100%;
+    transform: translateX(0);
+ }
+
+}
+
+
+
 
 
 
 @media (max-width:543px){
-    .wwwwwwwwf{
-        display: none;
-    }
+   .innerFlex{
+       flex-wrap: wrap;
+       row-gap: 20px;
+   }
 }
+
 
 
 
@@ -1322,3 +1392,69 @@ padding-right: 20px;
 
 
 
+
+
+
+@media (max-width:322px){
+
+
+.profileImgCont img{
+   width: initial !important;
+   max-width: initial !important;
+   min-width: initial !important;
+}
+
+
+
+.profileImgCont img{
+    width: 250px !important;
+ 
+ }
+
+.profileTxt{
+    padding-top: 240px;
+    
+    }
+
+}
+
+
+
+
+
+@media (max-width:688px){
+    .caseStudyCont .circularImage img{
+     
+        min-width: 600px;
+    
+    }
+}
+
+
+
+
+@media (max-width:466px){
+    .caseStudyCont .circularImage img{
+     
+        min-width: 500px;
+    
+    }
+}
+
+
+@media (max-width:356px){
+    .caseStudyCont .circularImage img{
+     
+        min-width: 200px !important;
+    
+    }
+}
+
+
+
+@media (max-width:640px){
+    .bigFlexC .circTitle{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+}

@@ -141,7 +141,6 @@ width: 400px;
     font-weight: bold;
     font-size: 16px;
     background-color: #f7a919;
-    border-radius: 5px;
     transition: 0.3s;
 }
 
@@ -181,7 +180,7 @@ width: 400px;
 .flex3P{
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
   
     background-position: center;
     background-size: cover;
@@ -223,7 +222,7 @@ width: 400px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
   row-gap: 70px;
-  margin-top: 120px;
+  margin-top: 70px;
 }
 
 
@@ -350,7 +349,6 @@ width: 400px;
     font-weight: bold;
     font-size: 17px;
     background-color: #f7a919;
-    border-radius: 5px;
     transition: 0.3s;
 }
 
@@ -481,7 +479,7 @@ width: 400px;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
-        margin-top: 60px;
+        margin-top: 20px;
         gap: 120px;
     }
 
@@ -567,7 +565,11 @@ width: 400px;
     justify-content: flex-start;
     gap: 60px;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 0px !important;
+}
+
+.flex2Txt{
+    min-width:100%;
 }
 
 .flex2Img{
@@ -606,9 +608,13 @@ width: 400px;
       z-index: 2;
   }
 
-  
+  .wavyBackground{
+      display: none;
+  }
 
-
+.wavyLine{
+    display: none;
+}
 
   .flex3C{
       z-index: 30;
@@ -655,7 +661,7 @@ width: 400px;
 @media (max-width:369px){
    
     .flex3Text a{
-        padding: 15px 20px;
+        padding: 15px 10px;
         color: white;
         font-weight: bold;
         font-size: 14px;
@@ -693,8 +699,17 @@ width: 400px;
 
         .realGrid{
             grid-template-columns: 1fr 1fr;
+  margin-top: 0px !important;
         
         }
+
+
+        .gridC .circTitle{
+            margin-top: 80px;
+        }
+
+
+
             }
 
 
@@ -713,6 +728,17 @@ width: 400px;
             grid-template-columns: 1fr;
             margin-top: 80px;
         
+        }
+
+        .rGrid1 {
+         display: flex;
+         align-items: flex-start;
+         justify-content: flex-start;
+         flex-direction: column;
+        }
+
+        .rGrid1 img{
+        align-self: center;
         }
             }
 
@@ -831,10 +857,14 @@ max-width: 100%;
 .contentGrid{
     max-width: 1100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
     margin: 0 auto;
     gap: 20px;
+    row-gap: 40px;
     margin-top: 50px;
+}
+.contentGrid1 h1{
+    font-size: 22px;
 }
 
 }
@@ -906,6 +936,17 @@ max-width: 100%;
 }
 
 
+
+.wavyBackground{
+    display: flex;
+}
+
+.wavyLine{
+  display: none;
+}
+
+
+
 .flex3C{
     z-index: 30;
     color: black;
@@ -916,4 +957,41 @@ max-width: 100%;
 }
 
 
+    }
+
+
+
+.flex3P{
+    position: relative;
+    margin-top: 200px;
+}
+
+
+    .wavyLine{
+        width:100%;
+        position: absolute;
+        top: -130px;
+        left: 0;
+
+    }
+
+
+
+    .wavyBackground{
+        position: absolute;
+        top: -120px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+
+
+    @media (max-width:348px){
+        .flex3Text h1{
+            font-size: 38px;
+        }
     }

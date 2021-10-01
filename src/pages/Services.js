@@ -48,6 +48,16 @@ everything from SEO, Content Writing, training, and more.</p>
 
 
 <div className="parent flex3P">
+
+<img src="/images/servicesImages/border.png" className="wavyLine"/>
+
+<img src="/images/servicesImages/wavyBackground.png" alt="" className="wavyBackground"/>
+
+
+
+
+
+
 <div className="darkBg"></div>
 
     <div className="child flex3C">

@@ -21,18 +21,18 @@ const Home = () => {
     };
 
     const items = [
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
-        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
+        <div className="caresoulLogo"><img src="/images/dummyLogo.png" alt="" draggable="false" /></div>,
     ];
 
 
@@ -495,7 +495,7 @@ const Home = () => {
 
 
 <div className="blogGrid1">
-  <img src="/images/flexLogo1.png" alt="" />
+  <img src="/images/flexLogo1.png" alt="" className="fiaaa"/>
     
     <h1>“Konabos was instrumental in improving the stability and performance of our website. They pinpointed the issues and clearly communicated ”</h1>
     <div className="fffcase">

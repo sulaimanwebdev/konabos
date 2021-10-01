@@ -127,8 +127,25 @@ margin-bottom: 20px;
     align-items: center;
     gap: 15px;
     opacity: 0.8;
+    padding: 0px !important;
 }
 
+
+@media (max-width:863px){
+  
+.asecLinks{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.asecLinks a:first-child{
+
+ padding: 14px 20px;
+}
+
+}
 
 
 
@@ -446,7 +463,6 @@ gap: 30px;
 
 
 
-
 .blogGrid1 h1{
 
 
@@ -518,17 +534,6 @@ width: 100%;
 object-fit: fill;
 max-height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -782,6 +787,7 @@ font-size: 17px;
 }
 
 
+
 .lastGrid img{
     width: 150px;
     margin-bottom: 10px;
@@ -801,9 +807,15 @@ font-size: 17px;
 .letterImg{
     margin-left: 180px;
     width:80px;
-    margin-bottom: -80px;
+    margin-bottom: -45px;
 }
 
+
+
+.fiaaa{
+    width: 140px !important;
+    margin-bottom: 0px !important;
+}
 
 
 
@@ -894,7 +906,7 @@ justify-content: center;
 
 
 .circTitle p{
-    font-size: 13px;
+    font-size: 16px !important;
 }
 
 }
@@ -1103,27 +1115,31 @@ justify-content: center;
 
 @media (max-width:984px){
 
-.testimonials{
-    max-width: 1100px;
-    height: 400px;
-    margin: 60px  auto  100px auto;
-    display: grid;
-    grid-template-columns: 1fr;
+    .testimonials{
+        max-width: 1100px;
+        width: 100%;
+        margin: 60px  auto  100px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    height: auto;
 
-}
+    
+    }
 
 
 .btns{
     height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+display: grid;
+grid-template-columns: 1fr 1fr ;
     gap: 5px;
+    width: 100%;
 }
 
 .btn1{
     height: 100px;
+    border-radius: 5px;
 }
 
 
@@ -1173,14 +1189,21 @@ justify-content: center;
 
 
 
-@media (max-width:704px){
-    .btns{
-        flex-direction: column;
-    }
 
-    .active-tab{
-        height: 120px;
-    }
+@media (max-width:533px){
+  
+
+.btns{
+    height: 100%;
+display: grid;
+grid-template-columns: 1fr ;
+    gap: 5px;
+    width: 100%;
+}
+
+.active-tab{
+    height: 100px;
+}
 }
 
 
@@ -1298,7 +1321,7 @@ justify-content: center;
 
 
 
-.alice-carousel__prev-btn [data-area]::after{
+.alice-carousel__next-btn [data-area]::after{
   
     display: inline-block;
 
@@ -1314,7 +1337,7 @@ height: 100%;
 
 width: fit-content;
 position: absolute;
-left: 0;
+right: 0;
 top: 0;
 background-color: white;
 }
@@ -1332,7 +1355,7 @@ height: 100%;
 
 width: fit-content;
 height: 100%;
-right: 0;
+left: 0;
 
 }
 

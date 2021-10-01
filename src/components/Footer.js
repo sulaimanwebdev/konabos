@@ -6,13 +6,27 @@ const Footer = () => {
            <div className="child footerC">
                <div className="newsletter">
                  <div className="title">Subscribe to Newsletter</div>
-                     <form>
+                     <form className="ffffnewsletter">
                  <i class="fal fa-envelope"></i>
                      <input type="text" name="search" placeholder="Enter Email address"/>
                      <button type="submit">Submit</button>
                      </form>
 
+
+<div className="llllnewsletter">
+                     <form>
+                 <i class="fal fa-envelope"></i>
+                     <input type="text" name="search" placeholder="Enter Email address"/>
+                     </form>
+                     <button type="submit">Submit</button>
                </div>
+
+                     </div>
+
+
+
+
+
 
 
 
