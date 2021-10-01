@@ -307,8 +307,7 @@ border: 1px solid black;
 
 
 .formImg img{
-    border-radius: 50%;
-    border: 10px solid rgba(0, 0, 0, 0.089);
+    width:600px;
 }
 
 
@@ -390,7 +389,103 @@ border: 1px solid black;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formImg .detailsOfForm{
+            max-width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .formImg .detailsOfForm p{
+            font-weight: 700;
+            font-size: 19px;
+            color: #0b92a7;
+
+        }
+
+
+
+
+        .formImg .detailsOfForm h1{
+            font-weight: 800;
+            font-size: 35px;
+            color: black;
+            opacity: 0.7;
+            margin-top: 5px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+.upper{
+
+    display: none;
+
+ }
 @media (max-width:936px){
+
+        .formImg .detailsOfForm{
+            display: none !important;
+        }
+    .upper{
+            max-width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .upper p{
+            font-weight: 700;
+            font-size: 19px;
+            color: #0b92a7;
+
+        }
+
+.upper div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+        .upper h1{
+            font-weight: 800;
+            font-size: 35px;
+            color: black;
+            opacity: 0.7;
+            margin-top: 5px;
+
+        }
 
 
 .ContactFormC{
@@ -459,3 +554,99 @@ border: 1px solid black;
         border: 2px solid #3bb3c5 !important;
         }
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width:1178px){
+
+.formImg img{
+    width:550px;
+}
+
+
+        }
+
+
+
+        @media (max-width:1088px){
+
+.formImg img{
+    width:500px;
+}
+
+
+        }
+
+
+
+
+
+
+        @media (max-width:1014px){
+
+.formImg img{
+    width:450px;
+}
+
+
+        }
+
+
+
+
+
+
+
+        @media (max-width:728px){
+            .iconFlexP{
+                background-color: #F6F6F6;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin-top: 60px;
+                margin-bottom: 0px;
+
+            }
+            .b{
+                display: none;
+            }
+        }
+
+
+
+
+
+        @media (max-width:1172px){
+            .ContactFormP{
+                margin-bottom: 100px;
+            }
+        }
+
+
+
+
+
+        .iconSec1:nth-child(1) hr{
+            min-width: 120px !important;
+            text-align: left;
+            border: none;
+            background-color: #EF7823;
+            height: 2px;
+            padding: 0;
+        }

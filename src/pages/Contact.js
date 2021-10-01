@@ -86,8 +86,24 @@ const Contact = () => {
 
 
 <div className="parent ContactFormP">
-    <div className="child ContactFormC">
-    <div className="formImg"><img src="/images/contactImages/map.png" alt="" /></div>
+    <div className="child ">
+         
+    <div className="upper">
+                  <div>
+                  <p>Have a Question?</p>
+                  <h1>Send a Message</h1>
+                  </div>
+              </div>
+
+    <div className="ContactFormC">
+    <div className="formImg">
+    <div className="detailsOfForm">
+                  <div>
+                  <p>Have a Question?</p>
+                  <h1>Send a Message</h1>
+                  </div>
+              </div>
+        <img src="/images/contactImages/map.svg" alt="" /></div>
     <form>
 
         <div className="formSec1">
@@ -158,6 +174,7 @@ const Contact = () => {
 
 
     </form>
+    </div>
     </div>
 </div>
 
