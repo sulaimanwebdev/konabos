@@ -854,6 +854,8 @@ font-size: 17px;
     }
 
 
+
+
     
 
 
@@ -1380,3 +1382,61 @@ left: 0;
 
 
 
+@media (max-width:1460px){
+
+.aSecTxt{
+margin-right:60px;
+}
+}
+
+
+
+@media (max-width:956px){
+
+    .aSecTxt{
+    margin-right:10px;
+    }
+
+
+
+    .aSecTxt h1{
+
+font-size: 45px;
+    }
+    }
+
+
+
+
+    @media (max-width:884px){
+        .aSecTxt{
+    margin-right:5px;
+    }
+
+        .aSecTxt h1{
+
+font-size: 42px;
+    }
+
+    }
+
+
+
+
+    @media (max-width:834px){
+        .aSecTxt h1{
+    font-size: 50px;
+            
+        }
+
+        .aSecTxt{
+    margin-right:0;
+    }
+    }
+
+
+
+
+
+
+    
