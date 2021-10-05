@@ -614,6 +614,11 @@ width: 400px;
   }
 
 
+  .topWavvy{
+    z-index: 70 !important;
+}
+
+
 
 .wavyLine{
     display: none;
@@ -957,10 +962,20 @@ max-width: 100%;
 
 .flex3P{
     padding-bottom: 120px;
+    padding-top: 120px;
+    
+
 }
+
 
 .bottomWavvy{
     bottom: 0px !important;
+}
+
+
+.topWavvy{
+    top: 0px !important;
+
 }
 .wavyLine{
   display: none;
@@ -1027,6 +1042,24 @@ max-width: 100%;
         z-index: 1;
 
     }
+
+    .topWavvy{
+        position: absolute;
+        top: -60px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+
+
+
+
+.flex3P{
+    margin-top: 0px !important;
+    padding-top: 150px;
+}
+
 
 
 
