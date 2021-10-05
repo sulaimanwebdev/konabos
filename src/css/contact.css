@@ -351,10 +351,17 @@ border: 1px solid black;
     }
 .iconFlexP{
     height: auto;
-    padding-top: 200px;
+    padding-top:200px;
     padding-bottom: 200px;
 
 }
+
+.contactP{
+    transform: translateY(20px);
+    margin-top: 0;
+}
+
+
 
 .a{
     display: none;
@@ -366,6 +373,11 @@ border: 1px solid black;
         gap: 70px;
         flex-direction: column;
         
+    }
+
+    .b{
+        min-width: 100% !important;
+        object-fit: cover !important;
     }
 
     .iconSec1{
@@ -616,16 +628,11 @@ border: 1px solid black;
 
         @media (max-width:728px){
             .iconFlexP{
-                background-color: #F6F6F6;
-                padding-top: 40px;
-                padding-bottom: 40px;
-                margin-top: 60px;
-                margin-bottom: 0px;
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
 
             }
-            .b{
-                display: none;
-            }
+            
         }
 
 
@@ -697,3 +704,8 @@ border: 1px solid black;
     margin-bottom: 0px;
 }
         }
+
+
+
+
+

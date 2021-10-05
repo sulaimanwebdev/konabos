@@ -29,8 +29,13 @@ padding: 0 40px;
 .navLinks a{
     font-size: 16px;
     font-weight: 600;
+transition: 0.3s;
+
+}
 
 
+.navLinks a:hover{
+  transform: translateY(-5px);
 }
 .logo{
     width: 100px;

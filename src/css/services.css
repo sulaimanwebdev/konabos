@@ -179,7 +179,7 @@ width: 400px;
 
 .flex3P{
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
     background-color: rgb(245, 245, 245);
   
     background-position: center;
@@ -609,12 +609,17 @@ width: 400px;
       z-index: 2;
   }
 
-  .wavyBackground{
-      display: none;
+  .bottomWavvy{
+      z-index: 70 !important;
   }
+
+
 
 .wavyLine{
     display: none;
+}
+.bgImage{
+    z-index: 0;
 }
 
   .flex3C{
@@ -814,10 +819,16 @@ width: 400px;
                   justify-content: flex-start;
                   flex-direction: column;
                   gap: 100px;
+                  position: relative;
               }
               .colorBgImg img{
-                max-width: 400px;
                 margin-bottom: 0px;
+                position: absolute;
+                top: -20px;
+                left: 50;
+                max-width: 100%;
+                opacity: 0.1;
+
             }
 
             .colorBgImg{
@@ -940,8 +951,17 @@ max-width: 100%;
 
 .wavyBackground{
     display: flex;
+
 }
 
+
+.flex3P{
+    padding-bottom: 120px;
+}
+
+.bottomWavvy{
+    bottom: 0px !important;
+}
 .wavyLine{
   display: none;
 }
@@ -996,3 +1016,18 @@ max-width: 100%;
             font-size: 38px;
         }
     }
+
+
+
+    .bottomWavvy{
+        position: absolute;
+        bottom: -60px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+
+
+    

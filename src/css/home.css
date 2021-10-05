@@ -908,7 +908,7 @@ justify-content: center;
 
 
 .circTitle p{
-    font-size: 16px !important;
+    font-size: 22px !important;
 }
 
 }
@@ -1146,6 +1146,8 @@ grid-template-columns: 1fr 1fr ;
 
 .active-tab{
     border-radius: 5px;
+    height: 100px;
+
 
 }
 
@@ -1439,4 +1441,46 @@ font-size: 42px;
 
 
 
+    @media (max-width:456px){
+        .active-rightSide{
+            border-radius: 5px;
+        }
+
+
+.tttText img{
+    margin-bottom: 15px;
+    width: 30px;
+}
+
+
+.btn1{
+    height: 60px;
+    padding: 10px;
+}
+
+
+.btn1 img{
+   
+width: 140px;
+}
+
+.active-tab{
+    height: 60px;
+    padding: 10px;
+}
+
+
+
+.active-tab img{
+    width: 140px;
+
+}
+
+.testimonials{
+    margin-top: 0px;
+}
+
+
+
+    }
     
