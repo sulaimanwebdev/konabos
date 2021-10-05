@@ -72,7 +72,7 @@ const CaseStudy = () => {
                    
                <div className="profileTxt">
                         <div className="innerFlex">
-                               <div className="sec1"><h1>Linda Gong</h1>  <p>Acquastion Marketing Manger</p></div>
+                               <div className="sec1"><h3>Linda Gong</h3>  <p>Acquastion Marketing Manger</p></div>
                         <div className="sec1 rightBorder"><h2>Industry</h2> <p>Computer Software</p></div>
                         <div className="sec1 rightBorder wwwwwwwwf"><h2>Website</h2> <p>www.contentfil.com</p></div>
 
@@ -111,7 +111,7 @@ const CaseStudy = () => {
                    <div className="child bigFlexC">
 
                    <div className="circTitle">
-                   <h1>The Impressive Results of Migrating Content using Contentful</h1>
+                   <h3>The Impressive Results of Migrating Content using Contentful</h3>
                    </div>
 
 
@@ -122,7 +122,7 @@ const CaseStudy = () => {
                  <div className="bigImage"><img src="/images/caseStudy/big.svg" alt="" /></div>
 
                  <div className="bigTxt">
-                     <h1>A Konabos Success Story</h1>
+                     <h3>A Konabos Success Story</h3>
                      <p>The Mesa Collections’ parent company, a premium manufacturer of bathroom products, owns eighteen brands and continues to grow its portfolio. With every expansion, the company Digital Experience Platform (DXP) landscape becomes more complex, and the issue of harmonizing and simplifying the DXP infrastructure becomes critical. With numerous sites hosted on various outdated and custom web applications, the DCX landscape was in dire need of trimming down. <br /><br /> Our team of experts identified critical goals to successfully perform a website migration towards a simplified Jamstack based Composable DXP solution through careful analysis of the situation. Our approach was to simplify the infrastructure and reduce costs by migrating smaller sites to a pure Jamstack play. Once implemented, we moved towards centralizing all content and information management in a microservice approach leveraging Contentful, a powerful omnichannel headless CMS platform. </p>
                  </div>
              </div>
@@ -203,7 +203,7 @@ const CaseStudy = () => {
             <div className="parent circularPartP">
     <div className="child circularPartC">
             <div className="circTitle">
-                <h1>Konabos Solutions</h1>
+                <h3>Konabos Solutions</h3>
                 <p>Since migration of the first brand, Mesa Collection, we were able to early on yeild impressive results with 91% reduction in infrastructure development costs, and we increased speed and perfomance</p>
             </div>
 
@@ -219,7 +219,7 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc1"><img src="/images/caseStudy/icon1.png" alt="" /></div>
        <div className="iii iii1">
-       <h1>Future</h1>
+       <h3>Future</h3>
         <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
        </div>
         </div>
@@ -233,7 +233,7 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc2"><img src="/images/caseStudy/icon2.png" alt="" /></div>
        <div className="iii iii2">
-       <h1>Friendly</h1>
+       <h3>Friendly</h3>
        <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
         
        </div>
@@ -250,7 +250,7 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc3"><img src="/images/caseStudy/icon3.png" alt="" /></div>
        <div className="iii iii3">
-       <h1>Content</h1>
+       <h3>Content</h3>
        <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
         
        </div>

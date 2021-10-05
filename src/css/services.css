@@ -117,7 +117,7 @@ width: 400px;
 
 
 
-.flex3Text h1{
+.flex3Text h3{
     font-size: 46px;
     font-weight: 800;
     margin-bottom: 25px;
@@ -324,7 +324,7 @@ width: 400px;
 
 
 
-.colorBgText h1{
+.colorBgText h3{
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 15px;
@@ -392,7 +392,7 @@ width: 400px;
 }
 
 
-.contentGrid1 h1 {
+.contentGrid1 h3 {
     font-size: 18px;
     opacity: 0.9;
     font-weight: 700;
@@ -503,7 +503,7 @@ width: 400px;
         
     }
 
-.flex1Txt h1{
+.flex1Txt h3{
     font-size: 38px;
   
 
@@ -533,7 +533,7 @@ width: 400px;
 
 
 @media (max-width:445px){
-    .flex1Txt h1{
+    .flex1Txt h3{
         font-size: 35px;
       
     
@@ -584,7 +584,7 @@ width: 400px;
 @media (max-width:519px){
 
 
-.flex2Txt h1{
+.flex2Txt h3{
     font-size: 30px;
     margin-bottom: 20px;
     font-weight: 800;
@@ -761,7 +761,7 @@ width: 400px;
 
             @media (max-width:1049px){
 
-                .colorBgText h1{
+                .colorBgText h3{
                     font-size: 40px;
                 }
                 
@@ -848,7 +848,7 @@ width: 400px;
 
   @media (max-width:491px){
 
-    .colorBgText h1{
+    .colorBgText h3{
         font-size: 33px;
     }
 
@@ -880,7 +880,7 @@ max-width: 100%;
     row-gap: 40px;
     margin-top: 50px;
 }
-.contentGrid1 h1{
+.contentGrid1 h3{
     font-size: 22px;
 }
 
@@ -1027,7 +1027,7 @@ max-width: 100%;
 
 
     @media (max-width:348px){
-        .flex3Text h1{
+        .flex3Text h3{
             font-size: 38px;
         }
     }

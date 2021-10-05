@@ -437,7 +437,7 @@ border: 1px solid black;
 
 
 
-        .formImg .detailsOfForm h1{
+        .formImg .detailsOfForm h3{
             font-weight: 800;
             font-size: 35px;
             color: black;
@@ -490,7 +490,7 @@ border: 1px solid black;
 }
 
 
-        .upper h1{
+        .upper h3{
             font-weight: 800;
             font-size: 35px;
             color: black;

@@ -196,7 +196,7 @@ padding-right: 70px;
 
 
 
-.sec1 h1{
+.sec1 h3{
     color: #3bb3c5;
     font-weight: 700;
     font-size: 26px;
@@ -267,7 +267,7 @@ padding-left: 15px;
 
 }
 
-.circTitle h1{
+.circTitle h3{
     font-size: 40px;
     font-weight: 800;
     opacity: 0.9;
@@ -288,7 +288,7 @@ padding-left: 15px;
 
 
 @media (max-width:462px){
-.circTitle h1{
+.circTitle h3{
     font-size: 30px;
     font-weight: 800;
     opacity: 0.9;
@@ -325,7 +325,7 @@ padding-left: 15px;
 
 
 
-.bigTxt h1{
+.bigTxt h3{
     font-size: 37px;
     color: #178a9c;
     font-weight: 800;
@@ -445,7 +445,7 @@ padding-left: 15px;
 
 }
 
-.caseStudyCont .circTitle h1{
+.caseStudyCont .circTitle h3{
     font-size: 40px;
     font-weight: 800;
     color: white;
@@ -500,7 +500,7 @@ padding-left: 15px;
 
 
 
-.caseStudyCont .iii h1{
+.caseStudyCont .iii h3{
     font-size: 32px;
     font-weight: 700;
     line-height: 1.2;

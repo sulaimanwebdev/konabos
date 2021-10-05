@@ -36,6 +36,7 @@ transition: 0.3s;
 
 .navLinks a:hover{
   transform: translateY(-5px);
+  color:#238594;
 }
 .logo{
     width: 100px;

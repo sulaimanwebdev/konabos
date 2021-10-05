@@ -66,7 +66,7 @@ everything from SEO, Content Writing, training, and more.</p>
 
     <div className="child flex3C">
 <div className="flex3Text">
-    <h1>Our Approach </h1>
+    <h3>Our Approach </h3>
        <div className="iconsOflex">
            <div className="iconIflex"><img src="/images/servicesImages/icon1.png"/> Business Goals Identification</div>
            <div className="iconIflex"><img src="/images/servicesImages/icon2.png"/> Customer Persona & Journey Modeling</div>
@@ -100,7 +100,7 @@ everything from SEO, Content Writing, training, and more.</p>
 <div className="parent girdP">
     <div className="child gridC">
     <div className="circTitle">
-                <h1>Strategy Services</h1>
+                <h3>Strategy Services</h3>
             </div>
 
 
@@ -221,7 +221,7 @@ everything from SEO, Content Writing, training, and more.</p>
 <div className="parent coloredBgP">
     <div className="child coloredBgC">
            <div className="colorBgText">
-               <h1>Contact us about Digital Experience Strategy And Management</h1>
+               <h3>Contact us about Digital Experience Strategy And Management</h3>
                <p>Your email address will not be published. We promise not to spam!</p>
                <Link to="/contact">CONTACT US</Link>
            </div>
@@ -248,25 +248,25 @@ everything from SEO, Content Writing, training, and more.</p>
 <div className="parent contentP">
     <div className="child contentC">
     <div className="circTitle">
-                <h1>Related Content</h1>
+                <h3>Related Content</h3>
             </div>
 
                <div className="contentGrid">
                    <div className="contentGrid1">
                        <img src="/images/servicesImages/content1.png" alt="" />
-                       <h1>Sitecore Boxever - Customer Data Platform</h1>
+                       <h3>Sitecore Boxever - Customer Data Platform</h3>
                    </div>
 
 
                    <div className="contentGrid1">
                        <img src="/images/servicesImages/content2.png" alt="" />
-                       <h1>How 2021 Will be Different Than 2020 for Your Content Strategy </h1>
+                       <h3>How 2021 Will be Different Than 2020 for Your Content Strategy </h3>
                    </div>
 
 
                    <div className="contentGrid1">
                        <img src="/images/servicesImages/content3.png" alt="" />
-                       <h1>Sitecore Personalized Experiences | A Win-Win for Customers and Brands</h1>
+                       <h3>Sitecore Personalized Experiences | A Win-Win for Customers and Brands</h3>
                    </div>
 
 
@@ -274,7 +274,7 @@ everything from SEO, Content Writing, training, and more.</p>
 
                    <div className="contentGrid1">
                        <img src="/images/servicesImages/content4.png" alt="" />
-                       <h1>Personalize on the Sitecore Experience Edge for Content Hub using Uniform</h1>
+                       <h3>Personalize on the Sitecore Experience Edge for Content Hub using Uniform</h3>
                    </div>
 
 

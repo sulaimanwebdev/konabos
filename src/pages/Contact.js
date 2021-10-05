@@ -91,7 +91,7 @@ const Contact = () => {
     <div className="upper">
                   <div>
                   <p>Have a Question?</p>
-                  <h1>Send a Message</h1>
+                  <h3>Send a Message</h3>
                   </div>
               </div>
 
@@ -100,7 +100,7 @@ const Contact = () => {
     <div className="detailsOfForm">
                   <div>
                   <p>Have a Question?</p>
-                  <h1>Send a Message</h1>
+                  <h3>Send a Message</h3>
                   </div>
               </div>
         <img src="/images/contactImages/map.svg" alt="" /></div>
